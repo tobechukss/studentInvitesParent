@@ -1,0 +1,157 @@
+
+/*General*/
+html {
+    font-family: 'Noto Sans', sans-serif;
+    color: #555555;
+}
+.container {
+    width: 100%;
+    background-color: #F5F5F5; 
+    min-width: 480px;
+}
+
+.logo {
+    text-align: center;
+    padding: 40px;
+}
+
+/*Body*/
+
+.email {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 40%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    line-height: 160%;
+    border-radius: 5px;
+    min-width: 480px;
+    
+}
+
+.greeting {
+    font-size: 16px;
+    font-weight: 600;
+    color: #353535;
+    margin: 0;
+    margin-top: 40px;
+}
+
+div.email img{
+    width: 50%;
+    display: block;
+    margin: 20px auto 0;
+   
+}
+
+.email h1 {
+    text-align: center;
+    color: #113255;
+    font-weight: 300;
+    margin: 0;
+}
+
+.email article {
+    margin: 3rem;
+    font-size: 14px;
+    
+}
+
+.email article button {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 30px auto 0;
+    color: #353535;
+    font-weight: bolder;
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color: #FAA017;
+    border-radius: 40px;
+    border-style: none;
+    cursor: pointer;
+}
+
+/*Footer*/
+
+.footer {
+    display: flex;
+    min-width: 480px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 40%;
+    margin: 30px auto 0;
+    padding-bottom: 20px;
+}
+
+.contact {
+    background-color: #113255;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 2em;
+    padding-bottom: 3em;
+    text-align: center;
+    
+}
+
+.contact span {
+    color: #FAA017;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+.bolder {
+    font-size: 21px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+.socialMediaIcons {
+    display: flex;
+    margin: 2em;
+    justify-content: space-around;
+    cursor: pointer;
+   
+}
+
+.info {
+    display: flex;
+    justify-content: center; 
+    cursor: pointer;
+}
+
+.info p {
+    padding: 0 15px 15px 15px;
+    margin: 0;
+}
+
+.contactinfo {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.underline {
+    text-decoration: underline;
+}
+.contactinfo p {
+    margin: 0;
+    padding: 15px 10px 10px 10px;
+    font-size: 14px;
+    color: #757575;
+}
+
+.ending {
+    margin: 2em;
+    font-size: 14px;
+    text-align: center;
+}
+
+.ending img {
+    padding: 10px 0 0;
+}
